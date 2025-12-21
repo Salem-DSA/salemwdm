@@ -1,14 +1,16 @@
-import Home from './pages/Home';
-import UnderConstruction from './pages/UnderConstruction';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Header from './components/Header';
+import SocialHousingForAll from './pages/SocialHousingForAll';
+import Preamble from './pages/Preamble';
 
 function App() {
   return (
     <>
-      {/*
-      <Home />
-      */}
-
-      <UnderConstruction />
+      <Header/>
+      <h1 className="pt-5 text-center">Salem Workers Deserve More</h1>
+      <Preamble/>
+      <SocialHousingForAll/>
     </>
   )
 }
