@@ -1,40 +1,31 @@
 import React from 'react';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
-import logo from "/salem_dsa_logo.jpg"
+import logo from "/logo_round.png"
 
 function Header() {
   return (
-    <Navbar expand="lg" bg="danger" variant="dark" sticky="top">
+    <Navbar expand="lg" variant="dark" sticky="top" style={{ backgroundColor: "var(--theme-primary)" }}>
       <Container>
         <img
             src={logo} 
-            width="30"
-            height="30"
+            width="40"
+            height="40"
             className="d-inline-block align-top me-1"
             alt="Salem DSA logo"
           />
-        <Navbar.Brand href="#preamble" className="me-auto">Salem Workers Deserve More</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#preamble">Preamble</Nav.Link>
-            <Nav.Link href="#housing_for_all">Housing For All</Nav.Link>
-            <Nav.Link href="#fast_and_free_buses">Fast and Free Buses</Nav.Link>
-            <Nav.Link href="#abolish_ice">Abolish ICE</Nav.Link>
-            <Nav.Link href="#tax_the_rich">Tax the Rich!</Nav.Link>
-            <Nav.Link href="#calls_to_action">Calls to Action</Nav.Link>
-            <NavDropdown title="Organizations and Candidates" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#orgs_and_candidates/1.1">Organizations</NavDropdown.Item>
-              <NavDropdown.Item href="#orgs_and_candidates/1.2">
-                Org 1
+            <Nav.Link href="#preamble">Platform</Nav.Link>
+            <Nav.Link href="#social_housing">Social Housing</Nav.Link>
+            <Nav.Link href="#free_buses">Free Buses</Nav.Link>
+            <Nav.Link href="#abolish_ICE">Abolish ICE</Nav.Link>
+            <Nav.Link href="#tax_the_rich">Tax the Rich</Nav.Link>
+            <Nav.Link href="#get_involved">Get Involved!</Nav.Link>
+            <NavDropdown title="Sponsors" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#Sponsors/1.1">
+                Salem DSA
               </NavDropdown.Item>
-              <NavDropdown.Item href="#orgs_and_candidates/1.3">Org 2</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#orgs_and_candidates/2.1">Candidates</NavDropdown.Item>
-              <NavDropdown.Item href="#orgs_and_candidates/2.2">
-                Candidate 1
-              </NavDropdown.Item>
-
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

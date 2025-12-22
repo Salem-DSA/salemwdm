@@ -1,6 +1,6 @@
 export default function UnderConstruction() {
   return (
-    <main className="container min-vh-100 d-flex flex-column justify-content-center align-items-center text-center">
+    <main className="container min-vh-50 d-flex flex-column justify-content-center align-items-center text-center">
       <h1 className="display-5 fw-bold mb-3">
         Site Under Construction
       </h1>

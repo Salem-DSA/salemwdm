@@ -1,16 +1,22 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from './components/Header';
-import SocialHousingForAll from './pages/SocialHousingForAll';
+import SocialHousing from './pages/SocialHousing';
 import Preamble from './pages/Preamble';
+import FreeBuses from './pages/FreeBuses';
+import AbolishICE from './pages/AbolishICE';
+import TaxtheRich from './pages/TaxtheRich';
 
 function App() {
   return (
     <>
       <Header/>
-      <h1 className="pt-5 text-center">Salem Workers Deserve More</h1>
+      <h1 className="pt-4 text-center">Salem Workers Deserve More</h1>
       <Preamble/>
-      <SocialHousingForAll/>
+      <SocialHousing/>
+      <FreeBuses />
+      <AbolishICE />
+      <TaxtheRich />
     </>
   )
 }

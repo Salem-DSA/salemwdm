@@ -1,0 +1,31 @@
+:root
+{
+    --theme-primary: #EB1F27;
+    --theme-text: #3B3838;
+    --theme-background: white;
+}
+
+html, body
+{
+    font-family: sans-serif;
+    background-color: var(--theme-background);
+    color: var(--theme-text);
+}
+
+h1,h2,h3,h4,h5
+{
+    font-family: "Bebas Neue";
+}
+
+h1
+{
+    color: black;
+    font-size: 100px;
+
+}
+
+h2
+{
+    color: var(--theme-primary);
+    font-size: 40px;
+}
