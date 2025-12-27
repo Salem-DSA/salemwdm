@@ -1,11 +1,11 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Header from './components/Header';
 import SocialHousing from './pages/SocialHousing';
 import Preamble from './pages/Preamble';
 import FreeBuses from './pages/FreeBuses';
 import AbolishICE from './pages/AbolishICE';
 import TaxtheRich from './pages/TaxtheRich';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

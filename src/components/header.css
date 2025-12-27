@@ -1,0 +1,19 @@
+.navbar-auto-hide {
+  transition: top 0.5s ease-in-out;
+  width: 100%;
+  z-index: 1030;
+  height: 4rem;
+}
+
+.navbar-auto-hide.show {
+  top: 0;
+}
+
+.navbar-auto-hide.hide {
+  top: -4rem;
+}
+
+.navbar-logo {
+    height: 3rem;
+    width: auto;
+}

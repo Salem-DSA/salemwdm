@@ -1,16 +1,20 @@
 import React from 'react';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
-import logo from "/logo_round.png"
+import logo from "/logo_round.png";
+import useScrollDirection from '../hooks/useScrollDirection';
+
+import "./header.css";
 
 function Header() {
+  const scrollDirection = useScrollDirection();
+
   return (
-    <Navbar expand="lg" variant="dark" sticky="top" style={{ backgroundColor: "var(--theme-primary)" }}>
+    <Navbar expand="lg" variant="dark" sticky="top" style={{ backgroundColor: "var(--theme-primary)" }} 
+    className={`navbar-auto-hide ${scrollDirection === 'down' ? 'hide' : 'show'}`}>
       <Container>
         <img
             src={logo} 
-            width="40"
-            height="40"
-            className="d-inline-block align-top me-1"
+            className="navbar-logo d-inline-block align-top me-1"
             alt="Salem DSA logo"
           />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
