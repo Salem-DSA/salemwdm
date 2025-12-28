@@ -1,7 +1,7 @@
-function AbolishICE() {
+function AbolishICE({ref}) {
   return (
     <>
-      <div id="abolish_ICE" className="container vh-50">
+      <div id="abolish_ICE" className="container vh-50" ref={ref}>
           <h2 className="pt-4 text-center">Abolish ICE</h2>
           <div className="pt-4">
             <p>

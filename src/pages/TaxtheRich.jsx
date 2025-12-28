@@ -1,7 +1,7 @@
-function TaxtheRich() {
+function TaxtheRich({ref}) {
   return (
     <>
-      <div id="tax_the_rich" className="container vh-50">
+      <div id="tax_the_rich" className="container vh-50" ref={ref}>
           <h2 className="pt-4 text-center">Tax the Rich!</h2>
           <div className="pt-4">
             <p>

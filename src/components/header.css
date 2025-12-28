@@ -3,17 +3,28 @@
   width: 100%;
   z-index: 1030;
   height: 4rem;
+  background-color: var(--theme-primary);
 }
 
-.navbar-auto-hide.show {
-  top: 0;
-}
+@media screen and (min-width: 992px) {
+    .navbar-auto-hide.show {
+        top: 0;
+    }
 
-.navbar-auto-hide.hide {
-  top: -4rem;
+    .navbar-auto-hide.hide {
+        top: -4rem;
+    }
 }
 
 .navbar-logo {
     height: 3rem;
     width: auto;
+}
+
+.navbar-collapse {
+    background-color: var(--theme-primary);
+}
+
+.navbar-dropdown {
+    background-color: var(--theme-primary);
 }

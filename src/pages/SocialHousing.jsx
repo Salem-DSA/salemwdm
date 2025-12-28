@@ -1,7 +1,7 @@
-function SocialHousing() {
+function SocialHousing({ref}) {
   return (
     <>
-      <div id="social_housing" className="container vh-50">
+      <div id="social_housing" className="container vh-50" ref={ref}>
           <h2 className="pt-4 text-center">Social Housing For All</h2>
           <div className="pt-4">
             <p>

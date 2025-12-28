@@ -1,7 +1,7 @@
-function FreeBuses() {
+function FreeBuses({ref}) {
   return (
     <>
-      <div id="free_buses" className="container vh-50">
+      <div id="free_buses" className="container vh-50" ref={ref}>
           <h2 className="pt-4 text-center">Fast, Fare Free Buses</h2>
           <div className="pt-4">
             <p>

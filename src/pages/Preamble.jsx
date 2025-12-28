@@ -1,7 +1,7 @@
-function Preamble() {
+function Preamble({ref}) {
   return (
     <>
-      <div id="preamble" className="container vh-50">
+      <div id="preamble" className="container vh-50" ref={ref}>
         <h2 className="pt-4 text-center">Preamble</h2>
         <div className="pt-4">
           <p>
