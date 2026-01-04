@@ -25,6 +25,17 @@
     background-color: var(--theme-primary);
 }
 
-.navbar-dropdown {
-    background-color: var(--theme-primary);
+.navbar .dropdown-item {
+  background-color: var(--theme-primary) !important;
+}
+
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item.active {
+  background-color: var(--theme-primary) !important;
+}
+
+.navbar .dropdown-menu {
+  background-color: var(--theme-primary) !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }

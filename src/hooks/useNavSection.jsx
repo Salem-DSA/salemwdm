@@ -4,7 +4,6 @@ import { useInView } from 'react-intersection-observer'
 const useNavSection = (sectionId, setActiveKey) => {
   const { ref, inView } = useInView({
     threshold: 1,
-    //rootMargin: '-50px 0px -50px 0px',
     rootMargin: '-5% 0px -5% 0px',
   });
 

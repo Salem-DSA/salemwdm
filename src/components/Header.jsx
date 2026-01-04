@@ -17,8 +17,8 @@ function Header({ activeKey }) {
             className="navbar-logo d-inline-block align-top me-1"
             alt="Salem DSA logo"
           />
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="navbar-collapse">
+        <Navbar.Toggle />
+        <Navbar.Collapse className="navbar-collapse">
           <Nav className="ms-auto" activeKey={activeKey} onSelect={handleSelect}>
             <Nav.Link eventKey="#preamble" href="#preamble">Platform</Nav.Link>
             <Nav.Link eventKey="#social_housing" href="#social_housing">Social Housing</Nav.Link>
@@ -26,8 +26,8 @@ function Header({ activeKey }) {
             <Nav.Link eventKey="#abolish_ICE" href="#abolish_ICE">Abolish ICE</Nav.Link>
             <Nav.Link eventKey="#tax_the_rich" href="#tax_the_rich">Tax the Rich</Nav.Link>
             <Nav.Link href="#get_involved">Get Involved!</Nav.Link>
-            <NavDropdown title="Sponsors" id="basic-nav-dropdown" className="navbar-dropdown">
-              <NavDropdown.Item href="#Sponsors/1.1" className="navbar-dropdown">
+            <NavDropdown title="Sponsors" menuVariant="dark">
+              <NavDropdown.Item href="#Sponsors/1.1">
                 Salem DSA
               </NavDropdown.Item>
             </NavDropdown>
