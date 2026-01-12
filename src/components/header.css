@@ -6,7 +6,7 @@
   background-color: var(--theme-primary);
 }
 
-@media screen and (min-width: 992px) {
+/*@media screen and (min-width: 992px) {
     .navbar-auto-hide.show {
         top: 0;
     }
@@ -14,6 +14,14 @@
     .navbar-auto-hide.hide {
         top: -4rem;
     }
+}*/
+
+.navbar-auto-hide.show {
+    top: 0;
+}
+
+.navbar-auto-hide.hide {
+    top: -4rem;
 }
 
 .navbar-logo {
